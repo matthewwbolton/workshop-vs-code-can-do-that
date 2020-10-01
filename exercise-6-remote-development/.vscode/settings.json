@@ -6,5 +6,6 @@
   "azureFunctions.deploySubpath": "start",
   "azureFunctions.projectLanguage": "JavaScript",
   "azureFunctions.projectRuntime": "~2",
-  "azureFunctions.preDeployTask": "npm prune"
+  "azureFunctions.preDeployTask": "npm prune",
+  "azureFunctions.projectSubpath": "start"
 }
