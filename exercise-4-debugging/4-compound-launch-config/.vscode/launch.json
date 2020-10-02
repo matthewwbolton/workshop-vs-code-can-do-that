@@ -11,16 +11,19 @@
   ],
   "configurations": [
     {
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
       "name": "Launch Server",
       "program": "${workspaceFolder}/server/server.js",
       "request": "launch",
+      "restart": true,
+      "runtimeExecutable": "nodemon",
       "skipFiles": ["<node_internals>/**"],
       "type": "pwa-node",
       "env": {
         "API_BASE": "https://lifx-lamp-api.azurewebsites.net/api"
       }
     },
-
     {
       "type": "chrome",
       "request": "launch",
