@@ -20,4 +20,5 @@ function setColor(color) {
 readline.question("Enter a color: ", async color => {
   await setColor(color);
   readline.close();
-});
+}); 
+
