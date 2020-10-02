@@ -57,9 +57,12 @@ class App extends Component {
               />
             </div>
             <div className="column">
-              <a className="button is-large" onClick={this.handleUpdateColor}>
+              <button
+                className="button is-large"
+                onClick={this.handleUpdateColor}
+              >
                 Go
-              </a>
+              </button>
             </div>
           </div>
         </section>
