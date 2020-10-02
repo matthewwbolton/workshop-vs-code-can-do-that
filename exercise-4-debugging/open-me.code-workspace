@@ -42,6 +42,6 @@
       "**/{1*,2*,3*,4*}": true
     },
     "debug.node.autoAttach": "on",
-    "liveServer.settings.multiRootWorkspaceName": "3-debug-browser-apps"
+    "liveServer.settings.multiRootWorkspaceName": "exercise-4-debugging"
   }
 }
